@@ -1,0 +1,11 @@
+<h1>Master Mind</h1>
+
+<app-code-maker></app-code-maker>
+
+<app-code-breaker>
+	<div class="box">
+		<button type="submit" (click)="guessCode()" [disabled]="invalid()">
+			Guess
+		</button>
+	</div>
+</app-code-breaker>
